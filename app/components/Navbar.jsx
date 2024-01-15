@@ -77,7 +77,7 @@ const Navbar = () => {
           <ThemeToggle />
         </span>
         {menuToggle && (
-          <div className="custom-bg navAnim absolute right-[27px] top-16 z-50 rounded-full shadow-lg max-md:right-[15px]">
+          <div className="custom-bg navAnim fixed right-[27px] top-16 z-50 rounded-full shadow-lg max-md:right-[15px]">
             <div className="gradient-bg rounded-full py-1 ">
               {menuItems.map((link) => (
                 <Link

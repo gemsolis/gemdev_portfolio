@@ -4,8 +4,8 @@ import { MdOutlineEmail } from "react-icons/md";
 
 const ContactInfo = () => {
   return (
-    <div className="glass-bg flex justify-between px-5 py-3">
-      <div className="flex items-center gap-2 max-sm:flex-col">
+    <div className="glass-bg flex justify-between px-5 py-3 max-sm:flex-col">
+      <div className="flex items-center gap-2 ">
         <span>
           <MdOutlineEmail size={20} />
         </span>

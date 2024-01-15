@@ -10,7 +10,7 @@ import TopButton from "../ui/Buttons/TopButton";
 const Hero = () => {
   return (
     <motion.div>
-      <div className="custom-bg custom-padding flex  h-[100vh] flex-col justify-center">
+      <div className="custom-bg custom-padding flex h-[100vh]  w-[100vw] flex-col justify-center">
         <motion.h3
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
