@@ -1,11 +1,9 @@
 "use client";
 import Link from "next/link";
 import CustomButton from "../ui/Buttons/CustomButton";
-import SocialLinks from "../ui/Buttons/SocialLinks";
 
 import SeeWorks from "../ui/Buttons/SeeWorks";
 import { motion } from "framer-motion";
-import TopButton from "../ui/Buttons/TopButton";
 
 const Hero = () => {
   return (
@@ -60,21 +58,7 @@ const Hero = () => {
           </Link>
         </motion.div>
       </div>
-      <motion.div
-        initial={{
-          x: "200px",
-          y: 0,
-        }}
-        animate={{
-          x: 0,
-          y: 0,
-        }}
-        transition={{ delay: 0.8, duration: 0.5 }}
-        className="fixed bottom-16 right-[33px] z-50 flex flex-col items-center justify-center gap-2 max-md:right-[20px]"
-      >
-        <SocialLinks />
-        <TopButton />
-      </motion.div>
+
       <div className="absolute bottom-10 flex w-full justify-center">
         <SeeWorks />
       </div>
