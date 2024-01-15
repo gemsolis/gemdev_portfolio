@@ -57,7 +57,7 @@ const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 1 }}
-      className="fixed left-0 top-0 z-50 flex h-[5%] w-full items-center justify-between bg-transparent px-10 py-10 max-md:px-6"
+      className="fixed left-0 top-0 z-50 flex h-[5%] w-[100vw] items-center justify-between overflow-x-hidden bg-transparent px-10 py-10 max-md:px-6"
     >
       <div className="glass-bg dark:dark-glass-bg rounded-full px-3 py-1">
         <Link href="/">
