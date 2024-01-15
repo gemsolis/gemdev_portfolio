@@ -125,7 +125,7 @@ textarea::placeholder {
 }
 
 .active {
-  @apply text-gray-100 dark:text-gray-900;
+  @apply font-semibold text-orange-500;
 }
 
 .navAnim {

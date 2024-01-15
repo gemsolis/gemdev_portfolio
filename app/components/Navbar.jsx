@@ -18,7 +18,7 @@ const Navbar = () => {
 
     setTimeout(() => {
       setMenuToggle(false);
-    }, 50000);
+    }, 90000);
   };
 
   useEffect(() => {
@@ -59,7 +59,7 @@ const Navbar = () => {
       transition={{ duration: 1 }}
       className="fixed left-0 top-0 z-50 flex h-[5%] w-[100vw] items-center justify-between overflow-x-hidden bg-transparent px-10 py-10 max-md:px-6"
     >
-      <div className="glass-bg dark:dark-glass-bg rounded-full px-3 py-1">
+      <div className="glass-bg rounded-full px-3 py-1">
         <Link href="/">
           <h1 className="flex flex-1 items-center gap-2">
             <Image
@@ -76,25 +76,6 @@ const Navbar = () => {
         <span className="glass-bg dark:dark-glass-bg rounded-full px-3 py-1">
           <ThemeToggle />
         </span>
-        {menuToggle && (
-          <div className="custom-bg navAnim fixed right-[27px] top-16 z-50 rounded-full shadow-lg max-md:right-[15px]">
-            <div className="gradient-bg rounded-full py-1 ">
-              {menuItems.map((link) => (
-                <Link
-                  href={link.url}
-                  key={link.title}
-                  className={`text-white-400 my-1 flex flex-col items-center justify-center px-2 py-3 
-              ${
-                activeLink === link.url ? "active" : ""
-              } duration-300 hover:scale-[1.1]`}
-                >
-                  <span>{link.icon}</span>
-                  <span className="text-sm max-md:text-xs ">{link.title}</span>
-                </Link>
-              ))}
-            </div>
-          </div>
-        )}
         <button className="glass-bg rounded-full p-2">
           {menuToggle ? (
             <CgClose size={20} onClick={handleToggle} />
@@ -103,6 +84,25 @@ const Navbar = () => {
           )}
         </button>
       </div>
+      {menuToggle && (
+        <div className="glass-bg navAnim fixed right-[27px] top-16 z-50 rounded-md px-2 shadow-lg max-md:right-[15px]">
+          <div className="rounded-full py-1 ">
+            {menuItems.map((link) => (
+              <Link
+                href={link.url}
+                key={link.title}
+                className={`text-white-400 my-1 flex flex-row-reverse items-center justify-start gap-3 px-3 py-3 
+              ${
+                activeLink === link.url ? "active" : ""
+              } origin-right duration-300 hover:scale-[1.1]`}
+              >
+                <span className="text-[12px]">{link.icon}</span>
+                <span className="text-sm max-md:text-xs ">{link.title}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </motion.div>
   );
 };
