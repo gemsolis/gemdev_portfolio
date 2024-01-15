@@ -12,6 +12,7 @@
 }
 
 body {
+  width: 100vw;
   font-family: "Raleway", sans-serif;
   overflow-x: hidden;
   @apply bg-main-light bg-cover bg-fixed bg-no-repeat dark:bg-main-dark;
