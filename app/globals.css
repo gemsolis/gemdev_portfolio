@@ -11,6 +11,11 @@
   scroll-behavior: smooth;
 }
 
+html{
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   @apply bg-main-light bg-cover bg-fixed bg-no-repeat dark:bg-main-dark;
