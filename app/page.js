@@ -7,7 +7,7 @@ import TopandSocial from "./ui/Navbar/TopandSocial";
 
 export default function Home() {
   return (
-    <main id="home" className="relative w-[100vw]">
+    <main id="home" className="w-[100vw]">
       <Hero />
       <About />
       <Tech />

@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <motion.div>
-      <div className="custom-bg custom-padding flex h-[100vh]  w-[100vw] flex-col justify-center">
+    <div>
+      <motion.div className="custom-bg custom-padding relative flex h-[100vh] w-[100vw] flex-col justify-center">
         <motion.h3
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -57,12 +57,11 @@ const Hero = () => {
             />
           </Link>
         </motion.div>
-      </div>
-
+      </motion.div>
       <div className="absolute bottom-10 flex w-full justify-center">
         <SeeWorks />
       </div>
-    </motion.div>
+    </div>
   );
 };
 

@@ -70,10 +70,6 @@ export const techIcons = {
       logo: "/assets/logo/less.png",
       text: "Less",
     },
-    styled: {
-      logo: "/assets/logo/styledcomponents.svg",
-      text: "Styled Components",
-    },
     tailwind: {
       logo: "/assets/logo/tailwindcss.png",
       text: "Tailwind CSS",

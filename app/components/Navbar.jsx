@@ -18,7 +18,7 @@ const Navbar = () => {
 
     setTimeout(() => {
       setMenuToggle(false);
-    }, 90000);
+    }, 9000);
   };
 
   useEffect(() => {

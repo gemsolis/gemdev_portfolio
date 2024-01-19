@@ -42,8 +42,8 @@ const Form = () => {
   };
 
   return (
-    <div className=" g-padding flex w-full flex-col ">
-      <h3 className="text-left text-2xl max-sm:text-[25px]">
+    <div className="flex w-full flex-col ">
+      <h3>
         Message me directly!
       </h3>
       <form
@@ -56,7 +56,7 @@ const Form = () => {
             type="text"
             name="user_name"
             placeholder="Full Name"
-            className="w-full rounded-md border-2 border-gray-200 bg-transparent p-2 text-white"
+            className="w-full rounded-md border-2 border-gray-400 bg-transparent p-2 text-white"
           />
         </label>
         <label className="mb-5 flex flex-col items-start justify-start">
@@ -64,7 +64,7 @@ const Form = () => {
             type="email"
             name="user_email"
             placeholder="Email Address"
-            className="w-full rounded-md border-2 border-gray-200 bg-transparent p-2 text-white"
+            className="w-full rounded-md border-2 border-gray-400 bg-transparent p-2 text-white"
           />
         </label>
 
@@ -72,14 +72,14 @@ const Form = () => {
           <textarea
             name="message"
             placeholder="Your message..."
-            className="h-[200px] w-full resize-none rounded-md border-2 border-gray-200 bg-transparent p-2 text-white"
+            className="h-[200px] w-full resize-none rounded-md border-2 border-gray-400 bg-transparent p-2 text-white"
           />
         </label>
         <div className="mb-5">
           <ReCAPTCHA
             ref={recaptchaRef}
             data-size="compact"
-            className="max-sm:scale-90"
+            className="max-sm:scale-90 self-end"
             sitekey="6LfyIUcpAAAAAFcdS6Vf6jMkOtQkisUeGLKmU4qx"
             onChange={(value) => console.log("reCAPTCHA value:", value)}
           />

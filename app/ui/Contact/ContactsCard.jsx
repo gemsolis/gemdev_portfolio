@@ -5,12 +5,12 @@ import { IoCall } from "react-icons/io5";
 
 const ContactsCard = () => {
   return (
-    <div className="g-padding h w-full rounded-md">
-      <h4 className="-full mb-5 text-2xl max-sm:text-[25px]">
-        Send me an email or follow me on social media.
-      </h4>
-      <div className="custom-flex mt-1 items-center justify-between rounded-md bg-white p-2 text-orange-500 shadow-md max-md:flex-col">
-        <div className="mx-5 mb-2 flex items-center gap-3 ">
+    <div className="w-full">
+      <h3>
+        Feel free to communicate with me.
+      </h3>
+      <div className="custom-flex mt-3 items-center justify-between rounded-md dark-gradient py-4 text-white shadow-md max-md:flex-col">
+        <div className="mx-5 mb-2 flex items-center gap-3">
           <span>
             <MdOutlineEmail size={20} />
           </span>

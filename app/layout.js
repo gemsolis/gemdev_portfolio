@@ -11,13 +11,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-        <body>
-      <Theme>
+      <body className="w-[100vw] overflow-x-hidden">
+        <Theme>
           <Navbar />
           {children}
           <Footer />
-      </Theme>
-        </body>
+        </Theme>
+      </body>
     </html>
   );
 }

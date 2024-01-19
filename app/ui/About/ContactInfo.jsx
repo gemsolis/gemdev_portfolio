@@ -4,16 +4,16 @@ import { MdOutlineEmail } from "react-icons/md";
 
 const ContactInfo = () => {
   return (
-    <div className="glass-bg flex justify-between px-5 py-3 max-sm:flex-col">
+    <div className="glass-bg flex justify-between px-5 py-3 max-sm:flex-col max-sm:justify-center max-sm:items-center gap-2">
       <div className="flex items-center gap-2 ">
         <span>
           <MdOutlineEmail size={20} />
         </span>
         <p>gemsolis.dev@gmail.com</p>
       </div>
-      <div className="glass-bg z-[100px] flex gap-2 p-3">
+      <div>
+        <ul className="glass-bg flex gap-2 p-3 rounded-md">
         {socialLinks.map((link) => (
-          <ul className="">
             <li key={link.title}>
               <Link
                 href={link.url}
@@ -22,8 +22,8 @@ const ContactInfo = () => {
                 <span>{link.icon}</span>
               </Link>
             </li>
-          </ul>
         ))}
+        </ul>
       </div>
     </div>
   );
