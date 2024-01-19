@@ -26,7 +26,7 @@ const About = () => {
     };
   }, []);
   return (
-    <div id="about" className="custom-padding bg-no-repeat">
+    <div id="about" className="custom-padding bg-no-repeat w-full">
       <Title title="About Me" subtitle="Get to Know me" />
       <motion.div
         ref={elementRef}

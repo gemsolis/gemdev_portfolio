@@ -10,7 +10,7 @@ import ContactsCard from "../ui/Contact/ContactsCard";
 const Contact = () => {
   return (
     <div id="contacts">
-      <div className="g-padding custom-bg">
+      <div className="g-padding custom-bg w-full">
         <Title title="Contacts" subtitle="Connect with Me" />
         <div className="g-margin g-padding flex w-full items-start justify-around gap-20 glass-bg max-lg:flex-col">
           <Form />

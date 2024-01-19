@@ -85,7 +85,7 @@ const Navbar = () => {
         </button>
       </div>
       {menuToggle && (
-        <div className="glass-bg navAnim fixed right-[27px] top-16 z-50 rounded-md px-2 shadow-lg max-md:right-[15px]">
+        <div className="glass-bg navAnim fixed left-[92%] top-16 z-50 rounded-md px-2 shadow-lg max-md:right-[15px]">
           <div className="rounded-full py-1 ">
             {menuItems.map((link) => (
               <Link

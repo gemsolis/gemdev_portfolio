@@ -26,7 +26,7 @@ const Tech = () => {
     };
   }, []);
   return (
-    <div id="technologies" className="custom-padding">
+    <div id="technologies" className="custom-padding w-full">
       <Title title="Tech Stack" subtitle="Technologies I learned" />
       <motion.div
         variants={containerVariants}

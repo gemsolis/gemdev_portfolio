@@ -4,7 +4,7 @@ import CaseStudyCard from "../ui/Card/CaseStudyCard";
 
 const Projects = () => {
   return (
-    <div id="works" className="g-padding g-margin">
+    <div id="works" className="g-padding g-margin w-full">
       <Title title="Works" subtitle="Projects I Built So Far" />
       <div className="flex flex-col justify-center">
         <WorkGallery />
