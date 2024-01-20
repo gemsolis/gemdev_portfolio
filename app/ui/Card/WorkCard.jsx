@@ -57,7 +57,7 @@ const WorkCard = () => {
               </h4>
               <div className="item-center my-5 flex flex-wrap gap-3">
                 {project.tech.map((item) => (
-                  <span className="rounded-full border-2 border-orange-500 px-2 py-1 text-[11px]">
+                  <span key={item} className="rounded-full border-2 border-orange-500 px-2 py-1 text-[11px]">
                     {item}
                   </span>
                 ))}

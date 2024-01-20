@@ -18,9 +18,8 @@ const TopandSocial = () => {
         opacity: 1,
       }}
       transition={{ delay: 0.8, duration: 0.5 }}
-      className="fixed bottom-10 right-[30px] z-50 flex flex-col items-center justify-center gap-2 max-md:right-[20px]"
+      className="fixed bottom-10 right-[30px] z-[20] flex flex-col items-center justify-center gap-2 max-md:right-[20px]"
     >
-      <SocialLinks />
       <TopButton />
     </motion.div>
   );

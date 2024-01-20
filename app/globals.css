@@ -11,12 +11,10 @@
   scroll-behavior: smooth;
 }
 
-html{
-  width: 100vw;
-  overflow-x: hidden;
-}
 
 body {
+  width: 100vw;
+  overflow-x: hidden;
   font-family: "Raleway", sans-serif;
   @apply bg-main-light bg-cover bg-fixed bg-no-repeat dark:bg-main-dark;
 }
@@ -59,7 +57,7 @@ span {
 
 /* Margin and Padding */
 .g-padding {
-  @apply p-[5vw] ;
+  @apply p-[6vw] ;
 }
 
 .g-margin {
@@ -78,18 +76,10 @@ span {
 }
 
 .glass-bg {
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background: rgba(41, 41, 41, 0.062);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   @apply shadow-md;
-}
-
-.dark-glass-bg {
-  background: rgba(95, 95, 95, 0.3);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(7px);
-  border-radius: 10px;
 }
 
 .gradient-bg {

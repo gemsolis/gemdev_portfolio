@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className=" w-full overflow-x-hidden">
+    <div classname="w-full">
       <motion.div className="custom-bg custom-padding relative h-[100vh] flex flex-col justify-center">
         <motion.h3
           initial={{ opacity: 0, scale: 0 }}
@@ -39,7 +39,7 @@ const Hero = () => {
           initial={{ opacity: 0, x: "100px" }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.8, duration: 0.5 }}
-          className="mt-5 flex items-center gap-4 "
+          className="mt-5 flex items-center gap-4"
         >
           <Link
             href="https://drive.google.com/file/d/1H9ZCi85a8gemQM7Lb5oV1TUhaDK-gUlD/view?usp=sharing"

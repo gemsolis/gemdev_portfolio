@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const SocialLinks = () => {
   return (
-    <div className="glass-bg z-[100px] flex flex-col gap-4 rounded-full p-3">
+    <div className="glass-bg flex gap-4 rounded-full p-3">
       {socialLinks.map((link) => (
-        <ul className="">
+        <ul>
           <li key={link.title}>
             <Link
               href={link.url}
