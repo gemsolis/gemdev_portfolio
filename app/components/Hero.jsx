@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div classname="w-full">
+    <div className="w-full">
       <motion.div className="custom-bg custom-padding relative h-[100vh] flex flex-col justify-center">
         <motion.h3
           initial={{ opacity: 0, scale: 0 }}

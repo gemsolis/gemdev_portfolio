@@ -8,14 +8,12 @@ import TopandSocial from "./ui/Navbar/TopandSocial";
 export default function Home() {
   return (
     <main id="home" className="overflow-x-hidden">
-    <div>
       <Hero />
       <About />
       <Tech />
       <Works />
       <Contact />
       <TopandSocial />
-    </div>
     </main>
   );
 }
