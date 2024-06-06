@@ -8,7 +8,6 @@ const Projects = () => {
       <Title title="Works" subtitle="Projects I Built So Far" />
       <div className="flex flex-col justify-center">
         <WorkGallery />
-        <CaseStudyCard />
       </div>
     </div>
   );

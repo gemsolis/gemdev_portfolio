@@ -12,8 +12,8 @@ import {
 export const menuItems = [
   { title: "Home", url: "#home", icon: <RiHomeLine /> },
   { title: "About", url: "#about", icon: <RiUser5Fill /> },
-  { title: "Tech", url: "#technologies", icon: <TbStackFront /> },
   { title: "Works", url: "#works", icon: <FaRegLightbulb /> },
+  { title: "Tech", url: "#technologies", icon: <TbStackFront /> },
   { title: "Contacts", url: "#contacts", icon: <RiContactsBook2Line /> },
 ];
 

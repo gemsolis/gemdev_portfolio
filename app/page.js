@@ -10,8 +10,8 @@ export default function Home() {
     <main id="home" className="overflow-x-hidden">
       <Hero />
       <About />
-      <Tech />
       <Works />
+      <Tech />
       <Contact />
       <TopandSocial />
     </main>

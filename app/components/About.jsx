@@ -42,6 +42,7 @@ const About = () => {
           transition={{ delay: 0, duration: 0.5 }}
         >
           <InfoCard />
+          <ContactInfo />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: "-100px" }}
@@ -52,16 +53,6 @@ const About = () => {
           transition={{ delay: 0, duration: 1 }}
           className="flex flex-col gap-3 "
         >
-          <LatestWorkCard
-            title="Latest Work"
-            details="Built an Admin Dashboard using Next.js, Tailwind CSS, MongoDB, and
-          server actions with authentication. The application supports CRUD
-          operations for product management, including listing, adding,
-          updating, and deleting products. User authentication is implemented
-          based on roles to ensure secure access and functionality based on user
-          privileges."
-          />
-          <ContactInfo />
         </motion.div>
       </motion.div>
     </div>

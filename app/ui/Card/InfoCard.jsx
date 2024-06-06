@@ -23,24 +23,13 @@ const InfoCard = () => {
         </div>
         <div className="text-left">
           <p className="pb-2">
-            I'm a passionate front-end web developer trained at Village88, a
-            prestigious bootcamp known for its rigorous curriculum and hands-on
-            learning approach. Throughout the program, I immersed myself in
-            HTML, CSS, and JavaScript, gaining expertise in creating engaging
-            and user-friendly websites.
+          I'm a passionate front-end web developer trained at Village88, a prestigious bootcamp known for its rigorous curriculum. I specialize in HTML, CSS, and JavaScript, creating engaging and user-friendly websites.
           </p>
           <p className="pb-2">
-            At Village88, I honed my skills in responsive layouts, optimizing
-            web performance, and ensuring seamless user experiences across
-            devices and browsers. I also developed a keen eye for design
-            principles, transforming wireframes into visually stunning and
-            intuitive interfaces.
+          I mastered responsive layouts, web performance optimization, and cross-device compatibility. I also developed a keen eye for design, transforming wireframes into stunning and intuitive interfaces.
           </p>
           <p className="pb-2">
-            As a lifelong learner, I stay up-to-date with the latest industry
-            trends and advancements. I'm always eager to explore new
-            technologies, frameworks, and libraries to enhance my skill set and
-            deliver cutting-edge solutions.
+          As a lifelong learner, I stay current with industry trends and advancements, always eager to explore new technologies, frameworks, and libraries to enhance my skills and deliver cutting-edge solutions.
           </p>
         </div>
       </div>
